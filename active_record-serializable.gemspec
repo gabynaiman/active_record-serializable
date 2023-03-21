@@ -18,10 +18,10 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'activerecord', '~> 4.0'
-  spec.add_development_dependency 'activesupport', '~> 4.0'
-  spec.add_development_dependency 'rasti-model', '~> 2.0'
-  spec.add_development_dependency 'bigdecimal', '~> 1.0'
+  spec.add_runtime_dependency 'activerecord', '~> 4.0'
+  spec.add_runtime_dependency 'activesupport', '~> 4.0'
+  spec.add_runtime_dependency 'rasti-model', '~> 2.0'
+  spec.add_runtime_dependency 'bigdecimal', '~> 1.0'
 
   spec.add_development_dependency 'sqlite3', '~> 1.3.6'
   spec.add_development_dependency 'rake', '~> 12.3'
