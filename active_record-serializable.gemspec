@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'activerecord', '~> 4.0'
   spec.add_development_dependency 'activesupport', '~> 4.0'
   spec.add_development_dependency 'rasti-model', '~> 2.0'
+  spec.add_development_dependency 'bigdecimal', '~> 1.0'
 
   spec.add_development_dependency 'sqlite3', '~> 1.3.6'
   spec.add_development_dependency 'rake', '~> 12.3'
